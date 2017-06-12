@@ -43,6 +43,7 @@ function randomImage(array, option , n){
 /** evento que dispara cuando se cambia las opciones del  select **/
 $("#sedes").change(function(){
   option = $(this).val();   // se obtiene el valor de las opciones
+  intent = 0;
   if(option == "mexico"){
     array = mexico;
   }
