@@ -2,14 +2,8 @@ var peru =  [{
               image:"Ana Paula Verme.jpg",
               name:"Ana"
             },{
-              image:"Joselyn Inga.JPG",
-              name:"Joselyn"
-            },{
               image:"Antonella Gutierrez.jpg",
               name:"Antonella" 
-            },{
-              image:"Karen Valdivia.JPG",
-              name:"Karen"
             },{
               image:"Astrid Cordova.jpg",
               name:"Astrid"
@@ -53,8 +47,14 @@ var peru =  [{
               image:"Pierina Acevedo.JPG",
               name:"Pierina"
             },{
+              image:"Joselyn Inga.JPG",
+              name:"Joselyn"
+            },{
               image:"Karina Prado.jpg",
               name:"Karina"
+            },{
+              image:"Karen Valdivia.JPG",
+              name:"Karen"
             },{
               image:"Karla Rios.jpg",
               name:"Karla"
@@ -78,7 +78,7 @@ var peru =  [{
               name:"Cecilia"
             },{
               image:"Maria Victoria Cardenas.jpg",
-              name:"Maria Victoria"
+              name:"Maria"
             },{
               image:"Merlin Rupay.jpg",
               name:"Stefanny"

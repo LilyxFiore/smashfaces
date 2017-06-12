@@ -11,22 +11,27 @@
   </head>
   <body>
     <section>
+      <h1>Smash faces</h1>
       <p class="font-roboto">Bienvenidas al juego de Smash Face, tu misión es poder identificar a todas tus compañeras de clase ingresando para ellos su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
       <div class="points">
         <span>Elige tu sede</span>
         <select name="Sedes" id="sedes">
+          <option value="peru">Lima</option>
           <option value="mexico">Mexico</option>
-          <option value="peru">Perú</option>
         </select>
-        <span class="right">Puntos: 0 puntos</span>
+        <span class="right">Puntos: <span id="points">0</span> puntos</span>
       </div>
     </section>
-    <section class="section-photo">
-      <img class="photo" alt="foto perfil" id="photo">
-      <div class="input-name">
+    <section class="container">
+      <div class="content-photo">
+        <img alt="foto perfil" id="photo">
+      </div>
+
+      <div class="container-name">
         <p>Ingrese su nombre:</p>
-        <input type="text" placeholder="Nombre">
-        <button id="check" class="btn font-roboto">COMPROBAR</button>
+        <input id="inputName" type="text" placeholder="Nombre">
+        <button id="check" class="font-roboto" type="button">COMPROBAR</button>
+        <p id="result"></p>
       </div>
     </section>
     <script src="assets/js/jquery-3.2.1.min.js"></script>

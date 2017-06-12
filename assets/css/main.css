@@ -6,6 +6,7 @@
 
 body{
   width: 90%;
+  height: 100vh;
   margin: auto;
   font-size: 18px;
 }
@@ -36,39 +37,52 @@ select{
 }
 
 /* section photo & input-name */
-.section-photo{
+.container{
+  width: 100%;
+  display: flex;
   background-color: #333333;
   color: white;
   overflow: auto;
 }
 
-.photo{
-  float: left;
+.content-photo{
   width: 40%;
 }
+img{
+   width: 100%;
+ }
 
-.input-name{
+.container-name{
   box-sizing: border-box;
   padding: 15px;
+  font-size: 24px;
   float: left;
   width: 60%;
 }
 
-.input-name p{
+.container-name p{
   margin: 0;
 }
 
-input{
+#inputName{
   padding: 5px;
   width: 100%;
   margin: 20px auto;
+  font-size: 20px;
 }
 
-.btn{
+#check{
   display: block;
   background-color: #f9a91a;
   border: 0;
   color: white;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 10px;
+  font-size: 20px;
+}
+
+#result{
+  text-align: center;
+  color: #f9a91a;
+  font-size: 30px;
 }

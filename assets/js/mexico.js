@@ -48,16 +48,16 @@ var mexico = [{
               name: "Karen"
             },{
               image: "Karen Cruz Heredia.JPG",
-              name: "Karen Cruz"
+              name: "Karen"
             },{
               image: "Karen Quiroz.JPG",
-              name: "Karen Quiroz"
+              name: "Karen"
             },{
               image: "Karla Monica Llerenas.JPG",
               name: "Karla"
             },{
               image: "Karla Vargas.JPG",
-              name: "Karla Vargas"
+              name: "Karla"
             },{
               image: "Leslie Anigail Vazquez.JPG",
               name: "Leslie"
@@ -87,13 +87,13 @@ var mexico = [{
               name: "Ruth"
             },{
               image: "Ruth Zacnicte Vega.JPG",
-              name: "Ruth Zacnicte"
+              name: "Ruth"
             },{
               image: "Sandra Bollo.JPG",
               name: "Sandra"
             },{
               image: "Sandra Díaz.JPG",
-              name: "Sandra Díaz"
+              name: "Sandra"
             },{
               image: "Vianey Tavatha Moreno.JPG",
               name: "Vianey"
